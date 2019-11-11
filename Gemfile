@@ -19,16 +19,18 @@ gem 'jbuilder', '~> 2.9', '>= 2.9.1'
 gem 'bootsnap', '~> 1.4', '>= 1.4.4', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors', '~> 1.0', '>= 1.0.3', require: 'rack/cors'
+# Http calls
+gem 'httparty', '~> 0.13.7'
+# Job runner
+gem 'sidekiq', '~> 5.0', '>= 5.0.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Testing framework
   gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
-  # Integration testing tool
-  gem 'capybara', '~> 3.29'
-  # Integration of factory girl and rails. Factory framework.
-  gem 'factory_girl_rails', '~> 4.9'
+  # Integration of factory bot and rails. Factory framework.
+  gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
 end
 
 group :development do
@@ -48,4 +50,6 @@ group :test do
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
   # Fake data generator
   gem 'faker', '~> 2.7'
+  # Controller testing
+  gem 'rails-controller-testing', '~> 0.0.3'
 end
