@@ -23,6 +23,8 @@ gem 'rack-cors', '~> 1.0', '>= 1.0.3', require: 'rack/cors'
 gem 'httparty', '~> 0.13.7'
 # Job runner
 gem 'sidekiq', '~> 5.0', '>= 5.0.5'
+# Fake data generator
+gem 'faker', '~> 2.7'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -48,8 +50,6 @@ group :test do
   gem 'database_cleaner', '~> 1.7'
   # One-liner common tests
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
-  # Fake data generator
-  gem 'faker', '~> 2.7'
   # Controller testing
   gem 'rails-controller-testing', '~> 0.0.3'
 end
