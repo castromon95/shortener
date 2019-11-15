@@ -18,7 +18,7 @@ gem 'jbuilder', '~> 2.9', '>= 2.9.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '~> 1.4', '>= 1.4.4', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-gem 'rack-cors', '~> 1.0', '>= 1.0.3', require: 'rack/cors'
+gem 'rack-cors', '~> 1.0', require: 'rack/cors'
 # Http calls
 gem 'httparty', '~> 0.13.7'
 # Job runner
