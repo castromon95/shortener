@@ -22,7 +22,7 @@ gem 'rack-cors', '~> 1.0', '>= 1.0.3', require: 'rack/cors'
 # Http calls
 gem 'httparty', '~> 0.13.7'
 # Job runner
-gem 'sidekiq', '~> 6.0.2'
+gem 'sidekiq', '~> 6.2.1'
 # Fake data generator
 gem 'faker', '~> 2.7'
 
