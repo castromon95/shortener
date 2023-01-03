@@ -20,7 +20,7 @@ gem 'bootsnap', '~> 1.4', '>= 1.4.4', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors', '~> 1.0', '>= 1.0.3', require: 'rack/cors'
 # Http calls
-gem 'httparty', '~> 0.13.7'
+gem 'httparty', '~> 0.21.0'
 # Job runner
 gem 'sidekiq', '~> 6.0.2'
 # Fake data generator
